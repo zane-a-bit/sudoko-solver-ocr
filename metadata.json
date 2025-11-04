@@ -1,0 +1,5 @@
+{
+  "name": "AI Sudoku Solver & Teacher",
+  "description": "An intelligent Sudoku application that can solve puzzles from an uploaded image, provide step-by-step guidance, and generate new games. It also features an AI image generator.",
+  "requestFramePermissions": []
+}
