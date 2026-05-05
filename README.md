@@ -41,6 +41,47 @@ Getting started is simple:
 
 -   **Frontend**: Built with [React](https://react.dev/) and [TypeScript](https://www.typescriptlang.org/).
 -   **Styling**: Styled with [Tailwind CSS](https://tailwindcss.com/) for a modern, responsive design.
+-   **Build Tool**: Powered by [Vite](https://vitejs.dev/) for fast development and optimized builds.
 -   **AI Engine**: Powered by the **[Google Gemini API](https://ai.google.dev/)**:
     -   **Gemini 2.5 Flash**: Used for fast tasks like generating puzzles, analyzing images (OCR), and providing hints.
     -   **Gemini 2.5 Pro**: Used for the more complex reasoning task of solving an entire puzzle from its initial state.
+
+## 📦 Installation & Setup
+
+### Prerequisites
+
+-   Node.js (v18 or higher recommended)
+-   npm or yarn
+-   A Google Gemini API key ([get one here](https://aistudio.google.com/apikey))
+
+### Steps
+
+1.  **Clone the repository** (or download the project files)
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Set up environment variables**:
+    Create a `.env` file in the root directory and add your Gemini API key:
+    ```
+    GEMINI_API_KEY=your_actual_api_key_here
+    ```
+
+4.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+    The app will be available at `http://localhost:3000`
+
+5.  **Build for production**:
+    ```bash
+    npm run build
+    ```
+    The built files will be in the `dist` folder.
+
+6.  **Preview production build**:
+    ```bash
+    npm run preview
+    ```
